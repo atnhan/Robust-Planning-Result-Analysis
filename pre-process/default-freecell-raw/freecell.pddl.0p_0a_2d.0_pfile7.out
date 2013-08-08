@@ -1,0 +1,5 @@
+FAILED to allocate 2479784 bytes (2.36M ) for an int[]
+Allocator statistics so far:
+Allocator , total mem: 306641116, stats (type,count,max,total):
+(int,5004,929919,76340333) (short,2,309973,319946) (double,1,1024,1024)
+Total / Max / Used / Free memory: 851.56M / 851.56M / 744.36M / 107.21M 

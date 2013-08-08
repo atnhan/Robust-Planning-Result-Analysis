@@ -1,0 +1,121 @@
+time	nodes	len	fail pr	eval time	
+89.36	1424	112	0	0.013	
+Incomplete Features: 120
+Solution Evaluation Time (s): 0.013
+Model Counting Time (s): 0.0
+Nodes Expanded: 1424
+Total Time (s): 91.23
+
+Plan found
+sendtofree heart7 heart4 N4 N3
+sendtohome spadeA club5 spade N1 spade0 N0
+move club5 spade3 diamond6
+move heart2 spade5 spade3
+move heart4 club6 spade5
+move club6 spade4 diamond7
+sendtofree spade4 diamond3 N3 N2
+sendtofree club5 diamond6 N2 N1
+sendtofree heart2 spade3 N1 N0
+move spade3 club4 heart4
+colfromfreecell heart2 spade3 N0 N1
+sendtofree club4 diamond2 N1 N0
+colfromfreecell club5 diamond6 N0 N1
+sendtofree heart2 spade3 N1 N0
+move-b diamond2 spade3 N0 N1
+sendtonewcol diamond3 spade2 N1 N0
+move-b spade2 diamond3 N0 N1
+sendtohome spade2 diamond3 spade N2 spadeA N1
+sendtonewcol diamond2 spade3 N1 N0
+sendtohome spade3 heart4 spade N3 spade2 N2
+move heart4 spade5 club5
+homefromfreecell spade4 spade N4 spade3 N3 N0 N1
+sendtofree heart4 club5 N1 N0
+sendtohome spade5 diamond5 spade N5 spade4 N4
+move diamond5 spade6 club6
+sendtohome spade6 club3 spade N6 spade5 N5
+colfromfreecell heart2 club3 N0 N1
+sendtofree club5 diamond6 N1 N0
+colfromfreecell club4 diamond5 N0 N1
+sendtofree diamond6 spade7 N1 N0
+sendtohome spade7 diamondA spade N7 spade6 N6
+sendtohome diamondA heart3 diamond N1 diamond0 N0
+move-b diamond3 club4 N0 N1
+sendtonewcol heart2 club3 N1 N0
+move-b diamond2 club3 N0 N1
+sendtohome diamond2 club3 diamond N2 diamondA N1
+sendtohome diamond3 club4 diamond N3 diamond2 N2
+move-b heart2 club3 N1 N2
+move heart3 heart6 club4
+sendtonewcol heart2 club3 N2 N1
+colfromfreecell club5 heart6 N0 N1
+sendtonewcol club5 heart6 N1 N0
+sendtofree heart3 club4 N1 N0
+move-b club5 heart6 N0 N1
+move-b heart2 club3 N1 N2
+sendtonewcol club5 heart6 N2 N1
+colfromfreecell heart4 club5 N0 N1
+sendtofree club4 diamond5 N1 N0
+sendtonewcol heart2 club3 N1 N0
+move club3 heart5 heart4
+move-b heart2 club3 N0 N1
+sendtonewcol diamond5 club6 N1 N0
+move-b heart5 club6 N0 N1
+colfromfreecell club4 diamond5 N0 N1
+sendtofree heart5 club6 N1 N0
+sendtonewcol club4 diamond5 N1 N0
+move-b diamond5 club6 N0 N1
+colfromfreecell heart3 club4 N0 N1
+sendtonewcol heart3 club4 N1 N0
+sendtofree heart2 club3 N1 N0
+move-b club4 diamond5 N0 N1
+sendtonewcol club3 heart4 N1 N0
+move-b heart3 club4 N0 N1
+sendtonewcol heart4 club5 N1 N0
+move-b club5 heart6 N0 N1
+sendtonewcol heart3 club4 N1 N0
+move-b heart4 club5 N0 N1
+sendtonewcol club4 diamond5 N1 N0
+colfromfreecell heart2 club3 N0 N1
+move-b heart3 club4 N0 N1
+sendtofree diamond5 club6 N1 N0
+colfromfreecell heart5 club6 N0 N1
+sendtofree heart4 club5 N1 N0
+sendtonewcol heart5 club6 N1 N0
+colfromfreecell heart4 club5 N0 N1
+sendtofree heart3 club4 N1 N0
+move-b heart5 club6 N0 N1
+sendtonewcol heart2 club3 N1 N0
+move-b club4 heart5 N0 N1
+move-b club3 heart4 N1 N2
+sendtonewcol club4 heart5 N2 N1
+colfromfreecell heart3 club4 N0 N1
+sendtofree heart5 club6 N1 N0
+move-b heart2 club3 N1 N2
+sendtonewcol club6 diamond7 N2 N1
+sendtonewcol diamond7 heartA N1 N0
+sendtohome heartA diamond4 heart N1 heart0 N0
+sendtohome diamond4 club2 diamond N4 diamond3 N3
+colfromfreecell diamond5 club6 N0 N1
+sendtohome heart2 club3 heart N2 heartA N1
+sendtohome heart3 club4 heart N3 heart2 N2
+sendtofree club3 heart4 N1 N0
+sendtohome heart4 club5 heart N4 heart3 N3
+homefromfreecell heart5 heart N5 heart4 N4 N0 N1
+sendtohome diamond5 club6 diamond N5 diamond4 N4
+sendtofree club5 heart6 N1 N0
+sendtohome-b heart6 heart N6 heart5 N5 N0 N1
+homefromfreecell diamond6 diamond N6 diamond5 N5 N0 N1
+sendtofree club2 club7 N1 N0
+sendtohome-b diamond7 diamond N7 diamond6 N6 N1 N2
+homefromfreecell heart7 heart N7 heart6 N6 N0 N1
+sendtofree-b club6 N1 N0 N2 N3
+newcolfromfreecell club2 N3 N2 N0 N1
+sendtofree club7 clubA N1 N0
+sendtohome-b clubA club N1 club0 N0 N2 N3
+sendtohome-b club2 club N2 clubA N1 N3 N4
+homefromfreecell club3 club N3 club2 N2 N0 N1
+sendtofree-b club4 N1 N0 N4 N5
+homefromfreecell club4 club N4 club3 N3 N0 N1
+homefromfreecell club5 club N5 club4 N4 N1 N2
+homefromfreecell club6 club N6 club5 N5 N2 N3
+homefromfreecell club7 club N7 club6 N6 N3 N4

@@ -1,0 +1,64 @@
+time	nodes	len	fail pr	eval time	
+0.176	17	8	0.984375	0.004	
+3.961	1107	142	0.999420642852783203125	0.038	
+6.706	1286	26	0.996395111083984375	0.047	
+7.103	1417	24	0.99188899993896484375	0.052	
+9.093	2332	51	0.99575138092041015625	0.055	
+Incomplete Features: 85
+Solution Evaluation Time (s): 0.055
+Model Counting Time (s): 0.018
+Nodes Expanded: 2863
+Total Time (s): 12.034
+
+Plan found
+turn_to satellite0 GroundStation2 Phenomenon6
+turn_to satellite0 Star5 Phenomenon6
+turn_to satellite0 Phenomenon6 GroundStation2
+switch_on instrument0 satellite0
+turn_to satellite0 GroundStation2 Phenomenon6
+calibrate satellite0 instrument0 GroundStation2
+turn_to satellite0 GroundStation1 GroundStation2
+take_image satellite0 Phenomenon6 instrument0 thermograph0
+turn_to satellite0 GroundStation1 Phenomenon6
+take_image satellite0 GroundStation1 instrument0 thermograph0
+turn_to satellite0 Star5 GroundStation1
+turn_to satellite0 Phenomenon6 Star5
+turn_to satellite0 GroundStation1 Phenomenon6
+turn_to satellite0 Star5 GroundStation1
+take_image satellite0 Star5 instrument0 thermograph0
+turn_to satellite0 Phenomenon6 Star5
+turn_to satellite0 GroundStation1 Phenomenon6
+switch_off instrument0 satellite0
+switch_on instrument0 satellite0
+turn_to satellite0 Star5 GroundStation1
+turn_to satellite0 Phenomenon6 Star5
+turn_to satellite0 GroundStation2 Phenomenon6
+calibrate satellite0 instrument0 GroundStation2
+take_image satellite0 GroundStation2 instrument0 thermograph0
+turn_to satellite0 GroundStation1 GroundStation2
+turn_to satellite0 Star0 Phenomenon6
+turn_to satellite0 Star0 GroundStation1
+turn_to satellite0 Phenomenon6 Star0
+turn_to satellite0 Star0 Phenomenon6
+take_image satellite0 Star0 instrument0 thermograph0
+turn_to satellite0 GroundStation1 Star0
+turn_to satellite0 Star5 GroundStation1
+turn_to satellite0 Phenomenon6 Star5
+turn_to satellite0 GroundStation2 Phenomenon6
+switch_off instrument0 satellite0
+switch_on instrument0 satellite0
+turn_to satellite0 GroundStation1 GroundStation2
+turn_to satellite0 Star0 Phenomenon6
+turn_to satellite0 Phenomenon4 Star0
+turn_to satellite0 Star0 GroundStation1
+turn_to satellite0 GroundStation2 Star0
+calibrate satellite0 instrument0 GroundStation2
+turn_to satellite0 GroundStation1 GroundStation2
+turn_to satellite0 Star0 GroundStation1
+turn_to satellite0 Phenomenon6 Star0
+turn_to satellite0 Star0 Phenomenon6
+turn_to satellite0 GroundStation2 Star0
+turn_to satellite0 GroundStation1 GroundStation2
+turn_to satellite0 Star5 GroundStation1
+turn_to satellite0 Phenomenon4 Star5
+take_image satellite0 Phenomenon4 instrument0 thermograph0

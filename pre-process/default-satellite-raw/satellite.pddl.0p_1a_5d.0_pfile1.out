@@ -1,0 +1,50 @@
+time	nodes	len	fail pr	eval time	
+0.195	17	8	0.9921875	0.004	
+2.815	485	9	0.984375	0.005	
+3.919	1090	8	0.96875	0.006	
+161.059	10855	42	0.9987100251019001007080078125	0.016	
+402.689	23422	37	0.99810139834880828857421875	0.031	
+Incomplete Features: 87
+Solution Evaluation Time (s): 0.031
+Model Counting Time (s): 0.01
+Nodes Expanded: 41239
+Total Time (s): 775.768
+
+Plan found
+turn_to satellite0 GroundStation2 Phenomenon6
+turn_to satellite0 Star0 Phenomenon6
+turn_to satellite0 Phenomenon6 GroundStation2
+switch_on instrument0 satellite0
+turn_to satellite0 GroundStation2 Phenomenon6
+calibrate satellite0 instrument0 GroundStation2
+take_image satellite0 Phenomenon6 instrument0 thermograph0
+turn_to satellite0 Star5 Phenomenon6
+turn_to satellite0 Phenomenon6 GroundStation2
+turn_to satellite0 GroundStation2 Phenomenon6
+take_image satellite0 GroundStation2 instrument0 thermograph0
+turn_to satellite0 GroundStation1 GroundStation2
+turn_to satellite0 GroundStation1 Phenomenon6
+turn_to satellite0 Star0 GroundStation1
+turn_to satellite0 Phenomenon6 Star0
+turn_to satellite0 Star0 Phenomenon6
+turn_to satellite0 GroundStation1 Star0
+turn_to satellite0 Star5 GroundStation1
+take_image satellite0 Star5 instrument0 thermograph0
+turn_to satellite0 Phenomenon6 Star5
+turn_to satellite0 Star0 Phenomenon6
+turn_to satellite0 GroundStation1 Star0
+take_image satellite0 GroundStation1 instrument0 thermograph0
+turn_to satellite0 Star0 GroundStation1
+turn_to satellite0 Phenomenon6 Star0
+turn_to satellite0 GroundStation2 Phenomenon6
+turn_to satellite0 Star5 GroundStation2
+turn_to satellite0 Star0 Phenomenon6
+turn_to satellite0 Phenomenon4 Star0
+turn_to satellite0 Phenomenon6 Star5
+turn_to satellite0 Star0 Phenomenon6
+turn_to satellite0 GroundStation2 Star0
+turn_to satellite0 GroundStation1 GroundStation2
+turn_to satellite0 Star0 GroundStation1
+turn_to satellite0 Phenomenon6 Star0
+turn_to satellite0 Phenomenon4 Phenomenon6
+take_image satellite0 Phenomenon4 instrument0 thermograph0

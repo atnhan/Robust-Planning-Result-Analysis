@@ -1,0 +1,71 @@
+time	nodes	len	fail pr	eval time	
+3.592	63	19	0.96875	0.057	
+16.125	814	44	0.9375	0.07	
+57.032	3387	43	0.875	0.081	
+241.371	12959	59	0.75	0.092	
+Incomplete Features: 1232
+Solution Evaluation Time (s): 0.092
+Model Counting Time (s): 0.0
+Nodes Expanded: 31626
+Total Time (s): 696.84
+
+Plan found
+move club2 diamond3 heart3
+sendtohome clubA diamondA club N1 club0 N0
+move-b diamondA spade2 N0 N1
+sendtofree spade3 heart2 N2 N1
+sendtofree diamondA spade2 N1 N0
+colfromfreecell diamondA club2 N0 N1
+move spade2 club3 diamond3
+sendtofree spade2 diamond3 N1 N0
+move heart2 heartA club3
+sendtohome diamondA club2 diamond N1 diamond0 N0
+colfromfreecell spade2 diamond3 N0 N1
+move-b heartA club2 N1 N2
+move heartA club2 spade2
+sendtofree club2 heart3 N1 N0
+sendtohome heartA spade2 heart N1 heart0 N0
+colfromfreecell club2 heart3 N0 N1
+sendtohome club2 heart3 club N2 clubA N1
+sendtofree spade2 diamond3 N1 N0
+colfromfreecell spade2 heart3 N0 N1
+sendtohome heart2 club3 heart N2 heartA N1
+sendtofree-b club3 N1 N0 N2 N3
+newcolfromfreecell spade3 N3 N2 N0 N1
+sendtofree spade2 heart3 N1 N0
+sendtohome heart3 diamond2 heart N3 heart2 N2
+colfromfreecell spade2 diamond3 N0 N1
+sendtofree-b diamond2 N1 N0 N2 N3
+homefromfreecell club3 club N3 club2 N2 N0 N1
+colfromfreecell diamond2 spade3 N1 N2
+sendtonewcol spade2 diamond3 N3 N2
+sendtofree diamond3 spadeA N2 N1
+sendtofree-b spade2 N1 N0 N2 N3
+newcolfromfreecell diamond3 N3 N2 N0 N1
+colfromfreecell spade2 diamond3 N1 N2
+sendtofree diamond2 spade3 N2 N1
+sendtofree-b spade3 N1 N0 N2 N3
+newcolfromfreecell diamond2 N3 N2 N0 N1
+sendtofree-b spadeA N1 N0 N2 N3
+newcolfromfreecell spade3 N3 N2 N0 N1
+sendtofree spade2 diamond3 N1 N0
+colfromfreecell spadeA diamond2 N0 N1
+sendtofree-b spade3 N1 N0 N2 N3
+sendtohome spadeA diamond2 spade N1 spade0 N0
+newcolfromfreecell spade3 N3 N2 N0 N1
+sendtofree-b diamond2 N1 N0 N2 N3
+colfromfreecell spade2 diamond3 N0 N1
+colfromfreecell diamond2 spade3 N1 N2
+sendtofree spade2 diamond3 N2 N1
+sendtofree-b diamond3 N1 N0 N3 N4
+newcolfromfreecell spade2 N4 N3 N0 N1
+sendtohome diamond2 spade3 diamond N2 diamondA N1
+sendtofree-b spade2 N1 N0 N3 N4
+newcolfromfreecell diamond3 N4 N3 N0 N1
+sendtofree-b spade3 N1 N0 N3 N4
+colfromfreecell spade2 diamond3 N0 N1
+sendtohome spade2 diamond3 spade N2 spadeA N1
+sendtofree-b diamond3 N1 N0 N4 N5
+homefromfreecell spade3 spade N3 spade2 N2 N0 N1
+newcolfromfreecell diamond3 N5 N4 N1 N2
+sendtohome-b diamond3 diamond N3 diamond2 N2 N4 N5

@@ -1,0 +1,38 @@
+time	nodes	len	fail pr	eval time	
+2.752	212	17	0.875	0.005	
+31.314	7097	36	0.75	0.009	
+37.835	8900	27	0.5	0.012	
+52.505	12715	26	0	0.013	
+Incomplete Features: 80
+Solution Evaluation Time (s): 0.013
+Model Counting Time (s): 0.0
+Nodes Expanded: 12716
+Total Time (s): 52.519
+
+Plan found
+sendtofree spadeA spade2 N2 N1
+sendtofree diamondA heartA N1 N0
+colfromfreecell diamondA spade2 N0 N1
+colfromfreecell spadeA heart2 N1 N2
+sendtofree club2 diamond2 N2 N1
+sendtofree spadeA heart2 N1 N0
+sendtohome diamondA spade2 diamond N1 diamond0 N0
+colfromfreecell spadeA heart2 N0 N1
+move-b heartA spade2 N0 N1
+sendtofree heartA spade2 N1 N0
+sendtonewcol spadeA heart2 N1 N0
+move-b spadeA diamond2 N0 N1
+colfromfreecell heartA spade2 N0 N1
+sendtonewcol spadeA diamond2 N1 N0
+sendtohome heartA spade2 heart N1 heart0 N0
+move-b spadeA heart2 N0 N1
+sendtohome spadeA heart2 spade N1 spade0 N0
+sendtohome heart2 clubA heart N2 heartA N1
+move-b clubA diamond2 N1 N2
+sendtohome clubA diamond2 club N1 club0 N0
+sendtofree-b diamond2 N1 N0 N2 N3
+sendtohome-b spade2 spade N2 spadeA N1 N3 N4
+newcolfromfreecell club2 N4 N3 N0 N1
+sendtohome-b club2 club N2 clubA N1 N3 N4
+newcolfromfreecell diamond2 N4 N3 N1 N2
+sendtohome-b diamond2 diamond N2 diamondA N1 N3 N4

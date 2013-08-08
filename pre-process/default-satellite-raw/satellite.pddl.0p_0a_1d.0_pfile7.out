@@ -1,0 +1,38 @@
+time	nodes	len	fail pr	eval time	
+1.44	133	29	0	0.004	
+Incomplete Features: 8
+Solution Evaluation Time (s): 0.004
+Model Counting Time (s): 0.0
+Nodes Expanded: 133
+Total Time (s): 1.504
+
+Plan found
+turn_to satellite2 Planet8 Star6
+turn_to satellite3 Phenomenon5 GroundStation2
+turn_to satellite3 GroundStation0 Phenomenon5
+switch_on instrument4 satellite2
+turn_to satellite1 Planet11 GroundStation0
+switch_on instrument3 satellite1
+switch_on instrument7 satellite3
+turn_to satellite2 Phenomenon5 Planet8
+turn_to satellite1 GroundStation4 Planet11
+calibrate satellite1 instrument3 GroundStation4
+turn_to satellite1 Phenomenon5 GroundStation4
+take_image satellite1 Phenomenon5 instrument3 image0
+turn_to satellite1 Planet11 Phenomenon5
+turn_to satellite3 Star6 GroundStation0
+turn_to satellite1 Star7 Planet11
+take_image satellite1 Star7 instrument3 image0
+turn_to satellite1 Planet11 Star7
+take_image satellite1 Planet11 instrument3 image2
+turn_to satellite1 Planet10 Planet11
+take_image satellite1 Planet10 instrument3 image0
+turn_to satellite1 Planet8 Planet10
+take_image satellite1 Planet8 instrument3 image0
+turn_to satellite1 Star1 Planet8
+turn_to satellite3 GroundStation0 Star6
+calibrate satellite3 instrument7 GroundStation0
+turn_to satellite3 Star6 GroundStation0
+take_image satellite3 Star6 instrument7 image1
+turn_to satellite3 Planet9 Star6
+take_image satellite3 Planet9 instrument7 image3
