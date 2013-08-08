@@ -45,11 +45,13 @@ freecell_default <- data.table(read.csv("../csv/DeFault//freecell@default.csv", 
 robust_plans_freecell_lower_pure_ff <- freecell_lower_pure_ff[, list(max_robustness = max(plan_robustness)), by=list(domain, problem)]
 robust_plans_freecell_default <- freecell_default[, list(max_robustness = max(plan_robustness)), by=list(domain, problem)]
 
+# Maximum robust plans returned by two approaches
+robust_plans_freecell_lower_pure_ff_AND_default <- merge(robust_plans_freecell_lower_pure_ff, robust_plans_freecell_default, 
+                                                         by=c("domain","problem"))
 
-# Get problem instances that are solved by all approaches
+robustness_by_lower_pure_ff <- robust_plans_freecell_lower_pure_ff_AND_default[robust_plans_freecell_lower_pure_ff_AND_default$max_robustness.x]
+
 plans_comparison <- function() {
-  
-  
   
 }
 
