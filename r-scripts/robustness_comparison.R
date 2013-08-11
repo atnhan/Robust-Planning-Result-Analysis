@@ -127,15 +127,17 @@ file_for_default <- c("../csv/DeFault/zenotravel@default.csv",
                       "../csv/DeFault/freecell@default.csv",
                       "../csv/DeFault/satellite@default.csv")
 
-robust_plans_comparison(domain_list[1:4], file_for_lower_inc_robust[1:4], file_for_lower_pure_ff[1:4], "../summary_tables/lower_inc_robust_VS_pure_ff.csv")
+# robust_plans_comparison(domain_list[1:4], file_for_lower_inc_robust[1:4], file_for_lower_pure_ff[1:4], "../summary_tables/lower_inc_robust_VS_pure_ff.csv")
+# 
+# robust_plans_comparison(domain_list[1:4], file_for_upper_inc_robust[1:4], file_for_upper_pure_ff[1:4], "../summary_tables/upper_inc_robust_VS_pure_ff.csv")
+# 
+# robust_plans_comparison(domain_list[5:6], file_for_default[5:6], file_for_upper_pure_ff[5:6], "../summary_tables/default_vs_upper_pure_ff.csv")
+# 
+# robust_plans_comparison(domain_list[5:6], file_for_default[5:6], file_for_lower_pure_ff[5:6], "../summary_tables/default_vs_lower_pure_ff.csv")
 
-robust_plans_comparison(domain_list[1:4], file_for_upper_inc_robust[1:4], file_for_upper_pure_ff[1:4], "../summary_tables/upper_inc_robust_VS_pure_ff.csv")
+robust_plans_comparison(domain_list[1:4], file_for_lower_inc_robust[1:4], file_for_upper_inc_robust[1:4], "../summary_tables/inc_robust_lower_VS_upper.csv")
 
-robust_plans_comparison(domain_list[5:6], file_for_default[5:6], file_for_upper_pure_ff[5:6], "../summary_tables/default_vs_upper_pure_ff.csv")
-
-robust_plans_comparison(domain_list[5:6], file_for_default[5:6], file_for_lower_pure_ff[5:6], "../summary_tables/default_vs_lower_pure_ff.csv")
-
-
+robust_plans_comparison(domain_list[1:4], file_for_lower_pure_ff[1:4], file_for_upper_pure_ff[1:4], "../summary_tables/pure_ff_lower_VS_upper.csv")
 
 
 
