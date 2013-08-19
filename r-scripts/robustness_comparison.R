@@ -83,6 +83,17 @@ robust_plans_comparison <- function(domain_list,
     worse_count = nrow(d[d$max_robustness.x < d$max_robustness.y])
     #print(worse_count)
     
+#     # COUNTING BASED ONLY ON INSTANCES SOLVED BY BOTH THE TWO APPROACHES
+#     d <- merge(robust_plans_first_table, robust_plans_second_table, by=c("domain","problem"))
+#     better_count = nrow(d[d$max_robustness.x > d$max_robustness.y])
+#     #print(better_count)
+# 
+#     equal_count = nrow(d[d$max_robustness.x == d$max_robustness.y])
+#     #print(equal_count)
+#     
+#     worse_count = nrow(d[d$max_robustness.x < d$max_robustness.y])
+#     #print(worse_count)
+    
     row_count <- row_count + 1
     summary_table[row_count,] <- list(domain_list[i],better_count, equal_count, worse_count)
   }
@@ -120,7 +131,16 @@ file_for_upper_pure_ff <- c("../csv/PISA/pure_ff/zenotravel@upper@pure_ff.csv",
                             "../csv/PISA/pure_ff/freecell@upper@pure_ff.csv",
                             "../csv/PISA/pure_ff/satellite@upper@pure_ff.csv")
 
+file_for_lower_robust_ff <- c("../csv/PISA/robust_ff/zenotravel@lower@robust_ff_2.csv")
+
+file_for_lower_annotations_free_ff <- c("../csv/PISA/annotations_free_ff_rp/zenotravel@lower@annotations_free_ff_rp.csv",
+                                        "../csv/PISA/annotations_free_ff_rp/depots@lower@annotations_free_ff_rp.csv")
+
+file_for_lower_all_most_robust <- c("../csv/PISA/all_most_robust/zenotravel@lower@all_most_robust@0.01.csv")
+
 file_for_upper_all_most_robust <- c("../csv/PISA/all_most_robust/zenotravel@upper@all_most_robust.csv")
+
+file_for_lower_locally_inc_robust <- c("../csv/PISA/locally_inc_robust/zenotravel@lower@locally_inc_robust.csv")
 
 file_for_default <- c("../csv/DeFault/zenotravel@default.csv",
                       "../csv/DeFault/depots@default.csv",
@@ -145,7 +165,12 @@ file_for_default <- c("../csv/DeFault/zenotravel@default.csv",
 
 #robust_plans_comparison(domain_list[1], file_for_upper_all_most_robust[1], file_for_upper_pure_ff[1], "../summary_tables/upper_all_most_robust_VS_pure_ff.csv")
 
-robust_plans_comparison(domain_list[1], file_for_upper_inc_robust[1], file_for_upper_all_most_robust[1], "../summary_tables/upper_inc_robust_VS_all_most_robust.csv")
+#robust_plans_comparison(domain_list[1], file_for_lower_inc_robust[1], file_for_lower_all_most_robust[1], "../summary_tables/lower_0.01_inc_robust_VS_all_most_robust.csv")
 
+#robust_plans_comparison(domain_list[1], file_for_lower_locally_inc_robust[1], file_for_lower_inc_robust[1], "../summary_tables/lower_locally_inc_robust_VS_inc_robust.csv")
 
+#robust_plans_comparison(domain_list[1], file_for_lower_locally_inc_robust[1], file_for_lower_pure_ff[1], "../summary_tables/lower_locally_inc_robust_VS_pure_ff.csv")
 
+#robust_plans_comparison(domain_list[1], file_for_lower_annotations_free_ff[1], file_for_lower_pure_ff[1], "../summary_tables/lower_annotations_free_ff_VS_pure_ff.csv")
+
+robust_plans_comparison(domain_list[1:2], file_for_lower_annotations_free_ff[1:2], file_for_lower_inc_robust[1:2], "../summary_tables/lower_annotations_free_ff_VS_inc_robust.csv")
