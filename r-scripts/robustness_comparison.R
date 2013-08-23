@@ -101,12 +101,12 @@ robust_plans_comparison <- function(domain_list,
   write.csv(summary_table, output_file)
 }
 
-domain_list <- c("zenotravel", "depots", "rover", "driverlog", "freecell", "satellite")
+domain_list <- c("zenotravel", "depots", "driverlog", "rover", "freecell", "satellite")
 
 file_for_lower_inc_robust <- c("../csv/PISA/inc_robust/zenotravel@lower@inc_robust.csv",
                                "../csv/PISA/inc_robust/depots@lower@inc_robust.csv",
-                               "../csv/PISA/inc_robust/rover@lower@inc_robust.csv",
                                "../csv/PISA/inc_robust/driverlog@lower@inc_robust.csv",
+                               "../csv/PISA/inc_robust/rover@lower@inc_robust.csv",
                                "../csv/PISA/inc_robust/freecell@lower@inc_robust.csv",
                                "../csv/PISA/inc_robust/satellite@lower@inc_robust.csv")
 
@@ -134,7 +134,8 @@ file_for_upper_pure_ff <- c("../csv/PISA/pure_ff/zenotravel@upper@pure_ff.csv",
 file_for_lower_robust_ff <- c("../csv/PISA/robust_ff/zenotravel@lower@robust_ff_2.csv")
 
 file_for_lower_annotations_free_ff <- c("../csv/PISA/annotations_free_ff_rp/zenotravel@lower@annotations_free_ff_rp.csv",
-                                        "../csv/PISA/annotations_free_ff_rp/depots@lower@annotations_free_ff_rp.csv")
+                                        "../csv/PISA/annotations_free_ff_rp/depots@lower@annotations_free_ff_rp.csv",
+                                        "../csv/PISA/annotations_free_ff_rp/driverlog@lower@annotations_free_ff_rp.csv")
 
 file_for_lower_all_most_robust <- c("../csv/PISA/all_most_robust/zenotravel@lower@all_most_robust@0.01.csv")
 
@@ -173,4 +174,4 @@ file_for_default <- c("../csv/DeFault/zenotravel@default.csv",
 
 #robust_plans_comparison(domain_list[1], file_for_lower_annotations_free_ff[1], file_for_lower_pure_ff[1], "../summary_tables/lower_annotations_free_ff_VS_pure_ff.csv")
 
-robust_plans_comparison(domain_list[1:2], file_for_lower_annotations_free_ff[1:2], file_for_lower_inc_robust[1:2], "../summary_tables/lower_annotations_free_ff_VS_inc_robust.csv")
+robust_plans_comparison(domain_list[1:3], file_for_lower_annotations_free_ff[1:3], file_for_lower_inc_robust[1:3], "../summary_tables/lower_annotations_free_ff_VS_inc_robust.csv")
