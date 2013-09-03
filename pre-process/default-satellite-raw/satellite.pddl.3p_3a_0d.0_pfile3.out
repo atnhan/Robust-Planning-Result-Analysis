@@ -1,0 +1,20 @@
+time	nodes	len	fail pr	eval time	
+0.339	31	11	0.75	0.003	
+Incomplete Features: 48
+Solution Evaluation Time (s): 0.003
+Model Counting Time (s): 0.001
+Nodes Expanded: 17311
+Total Time (s): 30.283
+
+Plan found
+switch_on instrument3 satellite1
+calibrate satellite1 instrument3 Star0
+turn_to satellite1 Star3 Star0
+take_image satellite1 Star3 instrument3 infrared0
+turn_to satellite1 Phenomenon7 Star3
+take_image satellite1 Phenomenon7 instrument3 spectrograph2
+turn_to satellite1 Star4 Phenomenon7
+take_image satellite1 Star4 instrument3 spectrograph2
+turn_to satellite0 Phenomenon5 Star4
+turn_to satellite1 Phenomenon5 Star4
+take_image satellite1 Phenomenon5 instrument3 spectrograph2

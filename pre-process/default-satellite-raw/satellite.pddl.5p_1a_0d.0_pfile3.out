@@ -1,0 +1,309 @@
+time	nodes	len	fail pr	eval time	
+0.28	19	9	0.9990234375	0.005	
+3.426	215	14	0.9921875	0.007	
+3.765	312	13	0.984375	0.009	
+5.021	841	29	0.96875	0.017	
+5.112	868	28	0.9375	0.019	
+11.277	3723	26	0.875	0.021	
+13.741	5134	294	0.75	0.031	
+Incomplete Features: 140
+Solution Evaluation Time (s): 0.031
+Model Counting Time (s): 0.001
+Nodes Expanded: 6697
+Total Time (s): 17.934
+
+Plan found
+switch_on instrument3 satellite1
+calibrate satellite1 instrument3 Star0
+turn_to satellite0 Phenomenon6 Star4
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite0 Star0 Star3
+take_image satellite1 Star0 instrument3 spectrograph2
+turn_to satellite1 Phenomenon6 Star0
+turn_to satellite1 Star3 Phenomenon6
+take_image satellite1 Star3 instrument3 infrared0
+turn_to satellite1 Star4 Star3
+take_image satellite1 Star4 instrument3 spectrograph2
+take_image satellite1 Star4 instrument3 infrared0
+turn_to satellite0 Phenomenon7 Star0
+turn_to satellite0 Phenomenon5 Phenomenon7
+turn_to satellite0 Star1 Phenomenon5
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite1 Star3 Star4
+take_image satellite1 Star3 instrument3 image1
+turn_to satellite0 Star0 Star3
+turn_to satellite1 Star4 Star3
+turn_to satellite0 Phenomenon7 Star0
+turn_to satellite0 Phenomenon5 Phenomenon7
+turn_to satellite0 Star1 Phenomenon5
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite0 Star2 Star3
+turn_to satellite0 Star4 Star2
+turn_to satellite1 Star3 Star4
+turn_to satellite0 Phenomenon6 Star4
+turn_to satellite0 Phenomenon7 Phenomenon6
+turn_to satellite0 Star1 Phenomenon7
+turn_to satellite1 Star1 Star3
+turn_to satellite1 Phenomenon7 Star1
+take_image satellite1 Phenomenon7 instrument3 spectrograph2
+turn_to satellite1 Star3 Phenomenon7
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Phenomenon5 Phenomenon6
+turn_to satellite0 Phenomenon7 Phenomenon5
+turn_to satellite1 Star4 Star3
+turn_to satellite0 Phenomenon5 Phenomenon7
+turn_to satellite0 Star1 Phenomenon5
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite0 Star0 Star3
+turn_to satellite1 Star3 Star4
+turn_to satellite1 Star1 Star3
+turn_to satellite1 Phenomenon7 Star1
+turn_to satellite1 Phenomenon6 Phenomenon7
+take_image satellite1 Phenomenon6 instrument3 spectrograph2
+turn_to satellite1 Star4 Phenomenon6
+turn_to satellite0 Phenomenon7 Star0
+turn_to satellite0 Phenomenon5 Phenomenon7
+turn_to satellite0 Star1 Phenomenon5
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite1 Star3 Star4
+turn_to satellite0 Star1 Star3
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Phenomenon5 Phenomenon6
+turn_to satellite0 Phenomenon7 Phenomenon5
+turn_to satellite0 Star2 Phenomenon7
+turn_to satellite1 Star4 Star3
+turn_to satellite0 Star4 Star2
+turn_to satellite1 Star3 Star4
+turn_to satellite1 Star1 Star3
+turn_to satellite1 Phenomenon7 Star1
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite0 Star2 Star4
+take_image satellite1 Phenomenon6 instrument3 infrared0
+turn_to satellite1 Star4 Phenomenon6
+turn_to satellite0 Star4 Star2
+turn_to satellite0 Phenomenon6 Star4
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite0 Star0 Star3
+turn_to satellite0 Phenomenon7 Star0
+turn_to satellite0 Star1 Phenomenon7
+turn_to satellite1 Star3 Star4
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Phenomenon5 Phenomenon6
+turn_to satellite0 Phenomenon7 Phenomenon5
+turn_to satellite1 Star1 Star3
+turn_to satellite1 Phenomenon7 Star1
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite0 Phenomenon5 Phenomenon7
+turn_to satellite0 Star1 Phenomenon5
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite0 Star0 Star3
+turn_to satellite1 Star3 Phenomenon6
+turn_to satellite1 Star1 Star3
+turn_to satellite1 Phenomenon7 Star1
+take_image satellite1 Phenomenon7 instrument3 image1
+turn_to satellite1 Star3 Phenomenon7
+turn_to satellite1 Star4 Star3
+turn_to satellite0 Phenomenon7 Star0
+turn_to satellite0 Phenomenon5 Phenomenon7
+turn_to satellite0 Star1 Phenomenon5
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite1 Star3 Star4
+turn_to satellite0 Star1 Star3
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Phenomenon5 Phenomenon6
+turn_to satellite0 Phenomenon7 Phenomenon5
+turn_to satellite0 Star2 Phenomenon7
+turn_to satellite1 Star4 Star3
+turn_to satellite0 Star4 Star2
+turn_to satellite1 Star3 Star4
+turn_to satellite1 Star1 Star3
+turn_to satellite1 Phenomenon7 Star1
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite0 Star2 Star4
+take_image satellite1 Phenomenon6 instrument3 image1
+turn_to satellite1 Star4 Phenomenon6
+turn_to satellite0 Star4 Star2
+turn_to satellite0 Phenomenon6 Star4
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite0 Star0 Star3
+turn_to satellite0 Phenomenon7 Star0
+turn_to satellite0 Star1 Phenomenon7
+turn_to satellite1 Star3 Star4
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Phenomenon5 Phenomenon6
+turn_to satellite0 Phenomenon7 Phenomenon5
+turn_to satellite1 Star1 Star3
+turn_to satellite1 Phenomenon7 Star1
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite0 Phenomenon5 Phenomenon7
+turn_to satellite0 Star1 Phenomenon5
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite0 Star0 Star3
+turn_to satellite1 Star3 Phenomenon6
+turn_to satellite1 Star1 Star3
+turn_to satellite1 Phenomenon7 Star1
+take_image satellite1 Phenomenon7 instrument3 infrared0
+turn_to satellite1 Star3 Phenomenon7
+turn_to satellite1 Star4 Star3
+turn_to satellite0 Phenomenon7 Star0
+turn_to satellite0 Phenomenon5 Phenomenon7
+turn_to satellite0 Star1 Phenomenon5
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite1 Star3 Star4
+turn_to satellite0 Star1 Star3
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Phenomenon5 Phenomenon6
+turn_to satellite0 Phenomenon7 Phenomenon5
+turn_to satellite0 Star2 Phenomenon7
+turn_to satellite1 Star4 Star3
+turn_to satellite0 Star4 Star2
+turn_to satellite1 Star3 Star4
+turn_to satellite1 Star1 Star3
+turn_to satellite1 Phenomenon7 Star1
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite0 Star2 Star4
+turn_to satellite1 Star0 Phenomenon6
+turn_to satellite1 Star1 Star0
+turn_to satellite0 Phenomenon5 Star2
+turn_to satellite1 Phenomenon7 Star1
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite0 Phenomenon7 Phenomenon5
+turn_to satellite1 Phenomenon7 Phenomenon6
+turn_to satellite0 Phenomenon6 Phenomenon7
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite0 Star0 Star3
+turn_to satellite1 Star0 Phenomenon6
+turn_to satellite1 Star1 Star0
+turn_to satellite0 Phenomenon7 Star0
+turn_to satellite0 Phenomenon6 Phenomenon7
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite0 Star1 Star3
+turn_to satellite1 Phenomenon7 Star1
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite1 Star0 Phenomenon6
+turn_to satellite0 Phenomenon5 Phenomenon6
+turn_to satellite0 Star1 Phenomenon5
+turn_to satellite0 Star4 Star1
+switch_off instrument3 satellite1
+turn_to satellite1 Phenomenon5 Star0
+switch_on instrument3 satellite1
+turn_to satellite1 Phenomenon7 Phenomenon5
+turn_to satellite1 Star3 Phenomenon7
+turn_to satellite0 Star2 Star4
+turn_to satellite1 Star4 Star3
+turn_to satellite0 Star4 Star2
+turn_to satellite0 Phenomenon5 Star4
+turn_to satellite1 Phenomenon5 Star4
+turn_to satellite1 Phenomenon7 Phenomenon5
+turn_to satellite1 Star3 Phenomenon7
+turn_to satellite0 Phenomenon7 Phenomenon5
+turn_to satellite1 Phenomenon5 Star3
+turn_to satellite1 Phenomenon7 Phenomenon5
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite0 Star2 Phenomenon7
+turn_to satellite0 Star4 Star2
+turn_to satellite0 Phenomenon6 Star4
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite1 Phenomenon5 Phenomenon6
+turn_to satellite1 Phenomenon7 Phenomenon5
+turn_to satellite1 Star3 Phenomenon7
+turn_to satellite0 Star0 Star3
+turn_to satellite1 Star4 Star3
+turn_to satellite0 Star1 Star0
+turn_to satellite1 Phenomenon5 Star4
+turn_to satellite1 Phenomenon7 Phenomenon5
+turn_to satellite1 Star3 Phenomenon7
+turn_to satellite1 Star1 Star3
+turn_to satellite0 Phenomenon7 Star1
+turn_to satellite0 Phenomenon5 Phenomenon7
+turn_to satellite0 Star4 Phenomenon5
+switch_off instrument3 satellite1
+turn_to satellite0 Star2 Star4
+turn_to satellite1 Phenomenon7 Star1
+turn_to satellite1 Star3 Phenomenon7
+turn_to satellite0 Star4 Star2
+turn_to satellite0 Phenomenon5 Star4
+turn_to satellite0 Star1 Phenomenon5
+turn_to satellite1 Phenomenon5 Star3
+turn_to satellite1 Phenomenon7 Phenomenon5
+turn_to satellite1 Star4 Phenomenon7
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite1 Phenomenon5 Star4
+turn_to satellite0 Phenomenon5 Phenomenon6
+turn_to satellite1 Phenomenon7 Phenomenon5
+turn_to satellite1 Star4 Phenomenon7
+turn_to satellite0 Phenomenon7 Phenomenon5
+turn_to satellite0 Star3 Phenomenon7
+turn_to satellite1 Phenomenon5 Star4
+turn_to satellite1 Phenomenon7 Phenomenon5
+turn_to satellite1 Star3 Phenomenon7
+turn_to satellite0 Star0 Star3
+turn_to satellite1 Phenomenon5 Star3
+turn_to satellite1 Phenomenon7 Phenomenon5
+turn_to satellite1 Phenomenon6 Phenomenon7
+switch_on instrument3 satellite1
+turn_to satellite1 Star0 Phenomenon6
+turn_to satellite0 Phenomenon7 Star0
+turn_to satellite0 Phenomenon5 Phenomenon7
+turn_to satellite0 Star1 Phenomenon5
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Star3 Phenomenon6
+calibrate satellite1 instrument3 Star0
+take_image satellite1 Star0 instrument3 infrared0
+turn_to satellite0 Star0 Star3
+turn_to satellite1 Phenomenon6 Star0
+turn_to satellite1 Star4 Phenomenon6
+turn_to satellite0 Phenomenon7 Star0
+turn_to satellite0 Phenomenon5 Phenomenon7
+turn_to satellite0 Star1 Phenomenon5
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite1 Star3 Star4
+turn_to satellite0 Star1 Star3
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Phenomenon5 Phenomenon6
+turn_to satellite0 Phenomenon7 Phenomenon5
+turn_to satellite0 Star2 Phenomenon7
+turn_to satellite1 Star4 Star3
+turn_to satellite0 Star4 Star2
+turn_to satellite1 Star3 Star4
+turn_to satellite1 Star1 Star3
+turn_to satellite1 Phenomenon7 Star1
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite0 Star2 Star4
+turn_to satellite1 Star0 Phenomenon6
+turn_to satellite1 Star1 Star0
+turn_to satellite0 Phenomenon5 Star2
+turn_to satellite1 Phenomenon7 Star1
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite0 Phenomenon7 Phenomenon5
+turn_to satellite1 Phenomenon7 Phenomenon6
+turn_to satellite0 Phenomenon6 Phenomenon7
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite0 Star0 Star3
+turn_to satellite0 Star1 Star0
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite1 Star0 Phenomenon6
+turn_to satellite0 Phenomenon5 Phenomenon6
+turn_to satellite0 Star1 Phenomenon5
+turn_to satellite1 Star1 Star0
+turn_to satellite0 Phenomenon6 Star1
+turn_to satellite0 Star3 Phenomenon6
+turn_to satellite0 Star0 Star3
+turn_to satellite0 Phenomenon7 Star0
+turn_to satellite1 Phenomenon5 Star1
+take_image satellite1 Phenomenon5 instrument3 spectrograph2
+turn_to satellite1 Phenomenon7 Phenomenon5
+turn_to satellite1 Star3 Phenomenon7
+turn_to satellite0 Phenomenon5 Phenomenon7

@@ -1,0 +1,73 @@
+time	nodes	len	fail pr	eval time	
+9.509	77	22	0.9375	1.444	
+316.853	3612	47	0.947265625	3.598	
+431.039	4907	79	0.8125	5.0	
+515.78	5996	55	0.6875	6.398	
+826.197	9345	60	0.25	7.797	
+Incomplete Features: 26560
+Solution Evaluation Time (s): 7.797
+Model Counting Time (s): 0.038
+Nodes Expanded: 9348
+Total Time (s): 834.349
+
+Plan found
+sendtofree spade3 heart2 N2 N1
+sendtofree spade2 club3 N1 N0
+sendtohome clubA diamondA club N1 club0 N0
+move club2 diamond3 heart3
+sendtohome club2 heart3 club N2 clubA N1
+colfromfreecell spade2 heart3 N0 N1
+sendtofree heart2 heartA N1 N0
+colfromfreecell heart2 club3 N0 N1
+move spade2 heart3 diamond3
+move spade2 diamond3 heart3
+sendtofree heart3 diamond2 N1 N0
+move spade2 heart3 diamond3
+move-b diamondA spade2 N0 N1
+sendtonewcol heart2 club3 N1 N0
+move-b diamond2 club3 N0 N1
+sendtohome diamondA spade2 diamond N1 diamond0 N0
+sendtonewcol diamond2 club3 N1 N0
+move spade2 diamond3 heart3
+move-b diamond2 club3 N0 N1
+sendtonewcol diamond3 spadeA N1 N0
+move spade2 heart3 diamond3
+move-b spadeA heart2 N0 N1
+sendtonewcol diamond2 club3 N1 N0
+sendtohome spadeA heart2 spade N1 spade0 N0
+move spade2 diamond3 heart3
+move-b diamond2 club3 N0 N1
+sendtohome diamond2 club3 diamond N2 diamondA N1
+move-b heartA spade2 N1 N2
+move-b heart2 club3 N2 N3
+newcolfromfreecell spade3 N3 N2 N0 N1
+sendtofree heart2 club3 N1 N0
+colfromfreecell heart2 spade3 N0 N1
+sendtofree heartA spade2 N1 N0
+sendtonewcol spade2 heart3 N2 N1
+move-b spade2 heart3 N1 N2
+colfromfreecell heartA spade2 N0 N1
+sendtonewcol heartA spade2 N2 N1
+move heart2 spade3 club3
+move spade2 heart3 diamond3
+sendtonewcol heart2 club3 N1 N0
+move spade2 diamond3 heart3
+sendtofree spade2 heart3 N1 N0
+colfromfreecell spade2 diamond3 N0 N1
+move-b heart2 spade3 N0 N1
+sendtofree heart2 spade3 N1 N0
+sendtohome spade2 diamond3 spade N2 spadeA N1
+colfromfreecell heart2 club3 N0 N1
+sendtonewcol heart2 club3 N1 N0
+sendtohome-b diamond3 diamond N3 diamond2 N2 N0 N1
+move-b heart2 club3 N1 N2
+sendtofree heart2 club3 N1 N0
+sendtohome-b heartA heart N1 heart0 N0 N2 N3
+colfromfreecell heart2 spade3 N0 N1
+sendtohome heart2 spade3 heart N2 heartA N1
+sendtofree-b club3 N1 N0 N3 N4
+sendtohome-b spade3 spade N3 spade2 N2 N4 N5
+newcolfromfreecell club3 N5 N4 N0 N1
+sendtohome-b club3 club N3 club2 N2 N4 N5
+newcolfromfreecell heart3 N5 N4 N1 N2
+sendtohome-b heart3 heart N3 heart2 N2 N4 N5

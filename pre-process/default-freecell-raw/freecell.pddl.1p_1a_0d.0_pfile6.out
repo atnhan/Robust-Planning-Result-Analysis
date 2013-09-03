@@ -1,0 +1,55 @@
+time	nodes	len	fail pr	eval time	
+13.702	166	46	0	0.006	
+Incomplete Features: 1296
+Solution Evaluation Time (s): 0.006
+Model Counting Time (s): 0.0
+Nodes Expanded: 166
+Total Time (s): 15.838
+
+Plan found
+sendtohome clubA club3 club N1 club0 N0
+sendtofree diamond5 diamond3 N3 N2
+move heart2 club7 club3
+sendtohome spadeA club6 spade N1 spade0 N0
+sendtofree club6 heart7 N2 N1
+sendtofree club5 spade5 N1 N0
+move diamond4 club4 spade5
+colfromfreecell club6 heart7 N0 N1
+sendtofree diamond4 spade5 N1 N0
+move diamond3 club2 club4
+sendtohome club2 heart3 club N2 clubA N1
+colfromfreecell diamond5 club6 N0 N1
+sendtofree club7 heart4 N1 N0
+move heart4 heartA spade5
+sendtohome heartA spade2 heart N1 heart0 N0
+sendtohome heart2 club3 heart N2 heartA N1
+sendtohome heart3 spade3 heart N3 heart2 N2
+sendtohome club3 diamond6 club N3 club2 N2
+sendtohome heart4 spade5 heart N4 heart3 N3
+move-b spade2 diamond3 N0 N1
+sendtohome spade2 diamond3 spade N2 spadeA N1
+sendtonewcol diamond6 heart5 N1 N0
+sendtohome-b spade3 spade N3 spade2 N2 N0 N1
+sendtonewcol diamond3 club4 N1 N0
+sendtohome club4 diamond2 club N4 club3 N3
+sendtohome heart5 spade4 heart N5 heart4 N4
+homefromfreecell club5 club N5 club4 N4 N0 N1
+sendtofree spade5 diamondA N1 N0
+sendtohome-b spade4 spade N4 spade3 N3 N0 N1
+sendtonewcol diamond5 club6 N1 N0
+sendtohome club6 heart7 club N6 club5 N5
+homefromfreecell club7 club N7 club6 N6 N0 N1
+sendtofree heart7 spade7 N1 N0
+homefromfreecell spade5 spade N5 spade4 N4 N0 N1
+sendtohome diamondA spade6 diamond N1 diamond0 N0
+sendtohome diamond2 heart6 diamond N2 diamondA N1
+sendtohome heart6 diamond7 heart N6 heart5 N5
+sendtohome-b diamond3 diamond N3 diamond2 N2 N0 N1
+sendtohome-b spade6 spade N6 spade5 N5 N1 N2
+homefromfreecell diamond4 diamond N4 diamond3 N3 N1 N2
+homefromfreecell heart7 heart N7 heart6 N6 N2 N3
+sendtohome-b diamond5 diamond N5 diamond4 N4 N2 N3
+sendtohome-b diamond6 diamond N6 diamond5 N5 N3 N4
+sendtohome-b diamond7 diamond N7 diamond6 N6 N4 N5
+sendtofree-b spade7 N3 N2 N5 N6
+homefromfreecell spade7 spade N7 spade6 N6 N2 N3

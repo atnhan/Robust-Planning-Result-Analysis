@@ -2,6 +2,6 @@
 
 ./freecell.sh
 
-./satellite.sh
+#./satellite.sh
 
 mv *.csv ../csv/DeFault

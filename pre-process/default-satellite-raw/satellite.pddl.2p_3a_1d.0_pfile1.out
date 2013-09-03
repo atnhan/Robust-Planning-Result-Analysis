@@ -1,0 +1,20 @@
+time	nodes	len	fail pr	eval time	
+0.201	29	10	0.998046875	0.004	
+3.44	1429	11	0.99609375	0.005	
+3.805	1832	10	0.9921875	0.006	
+4.302	2509	9	0.984375	0.007	
+4.329	2556	7	0.96875	0.008	
+Incomplete Features: 65
+Solution Evaluation Time (s): 0.008
+Model Counting Time (s): 0.001
+Nodes Expanded: 3277
+Total Time (s): 4.811
+
+Plan found
+switch_on instrument0 satellite0
+calibrate satellite0 instrument0 Phenomenon6
+take_image satellite0 Phenomenon6 instrument0 thermograph0
+turn_to satellite0 Phenomenon4 Phenomenon6
+take_image satellite0 Phenomenon4 instrument0 thermograph0
+turn_to satellite0 Star5 Phenomenon4
+take_image satellite0 Star5 instrument0 thermograph0

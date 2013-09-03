@@ -1,0 +1,52 @@
+time	nodes	len	fail pr	eval time	
+0.201	17	8	0.9375	0.003	
+18.677	1941	47	0.875	0.006	
+42.403	3316	43	0.75	0.009	
+71.394	7499	40	0.5	0.01	
+Incomplete Features: 64
+Solution Evaluation Time (s): 0.01
+Model Counting Time (s): 0.001
+Nodes Expanded: 8482
+Total Time (s): 77.224
+
+Plan found
+turn_to satellite0 Star5 Phenomenon6
+turn_to satellite0 Phenomenon4 Star5
+turn_to satellite0 GroundStation2 Phenomenon4
+switch_on instrument0 satellite0
+calibrate satellite0 instrument0 GroundStation2
+turn_to satellite0 Star0 GroundStation2
+turn_to satellite0 Phenomenon4 Star0
+take_image satellite0 Phenomenon4 instrument0 thermograph0
+turn_to satellite0 GroundStation2 Phenomenon4
+turn_to satellite0 Star0 GroundStation2
+turn_to satellite0 Star5 Star0
+turn_to satellite0 GroundStation1 Star5
+turn_to satellite0 Star0 GroundStation1
+turn_to satellite0 GroundStation2 Star0
+take_image satellite0 GroundStation2 instrument0 thermograph0
+turn_to satellite0 Star0 GroundStation2
+turn_to satellite0 Phenomenon4 Star0
+turn_to satellite0 Phenomenon6 Phenomenon4
+turn_to satellite0 Phenomenon3 Phenomenon6
+turn_to satellite0 GroundStation1 Phenomenon3
+turn_to satellite0 Star0 GroundStation1
+turn_to satellite0 Phenomenon4 Star0
+turn_to satellite0 Phenomenon6 Phenomenon4
+take_image satellite0 Phenomenon6 instrument0 thermograph0
+turn_to satellite0 Star0 Phenomenon6
+turn_to satellite0 Phenomenon4 Star0
+turn_to satellite0 Phenomenon3 Phenomenon4
+turn_to satellite0 GroundStation1 Phenomenon3
+take_image satellite0 GroundStation1 instrument0 thermograph0
+turn_to satellite0 Star0 GroundStation1
+turn_to satellite0 Phenomenon4 Star0
+turn_to satellite0 Phenomenon6 Phenomenon4
+turn_to satellite0 Phenomenon3 Phenomenon6
+take_image satellite0 Phenomenon3 instrument0 thermograph0
+turn_to satellite0 GroundStation1 Phenomenon3
+turn_to satellite0 Star0 GroundStation1
+turn_to satellite0 Phenomenon4 Star0
+turn_to satellite0 Phenomenon6 Phenomenon4
+turn_to satellite0 Star5 Phenomenon6
+take_image satellite0 Star5 instrument0 thermograph0

@@ -1,0 +1,62 @@
+time	nodes	len	fail pr	eval time	
+3.945	86	24	0.5	0.019	
+10.526	368	52	0	0.024	
+Incomplete Features: 1080
+Solution Evaluation Time (s): 0.024
+Model Counting Time (s): 0.0
+Nodes Expanded: 369
+Total Time (s): 10.552
+
+Plan found
+move diamond2 clubA club3
+move clubA heart4 diamond2
+sendtofree heart3 spadeA N2 N1
+sendtohome clubA diamond2 club N1 club0 N0
+sendtofree diamond4 diamond3 N1 N0
+move spadeA heartA diamond2
+sendtohome spadeA diamond2 spade N1 spade0 N0
+sendtohome diamondA spade2 diamond N1 diamond0 N0
+move spade2 club4 diamond3
+sendtohome diamond2 club3 diamond N2 diamondA N1
+colfromfreecell heart3 club4 N0 N1
+sendtohome spade2 diamond3 spade N2 spadeA N1
+sendtofree heart3 club4 N1 N0
+move club3 spade3 heart4
+colfromfreecell heart3 club4 N0 N1
+sendtohome spade3 heart2 spade N3 spade2 N2
+sendtofree heart2 spade4 N1 N0
+sendtohome-b spade4 spade N4 spade3 N3 N0 N1
+sendtonewcol diamond3 club2 N1 N0
+move-b heartA club2 N0 N1
+sendtohome heartA club2 heart N1 heart0 N0
+sendtonewcol club3 heart4 N1 N0
+sendtohome-b diamond3 diamond N3 diamond2 N2 N0 N1
+homefromfreecell diamond4 diamond N4 diamond3 N3 N0 N1
+colfromfreecell heart2 club3 N1 N2
+sendtonewcol heart2 club3 N1 N0
+move-b club3 heart4 N0 N1
+sendtofree club3 heart4 N2 N1
+move-b club2 heart3 N1 N2
+sendtofree club2 heart3 N1 N0
+colfromfreecell club3 heart4 N0 N1
+colfromfreecell club2 heart3 N1 N2
+move-b heart2 club3 N2 N3
+sendtofree club2 heart3 N2 N1
+sendtofree heart3 club4 N1 N0
+sendtohome heart2 club3 heart N2 heartA N1
+colfromfreecell heart3 club4 N0 N1
+colfromfreecell club2 heart3 N1 N2
+sendtofree club3 heart4 N2 N1
+sendtofree-b heart4 N1 N0 N3 N4
+newcolfromfreecell heart4 N4 N3 N0 N1
+sendtonewcol club2 heart3 N3 N2
+sendtohome heart3 club4 heart N3 heart2 N2
+sendtofree-b club2 N1 N0 N2 N3
+colfromfreecell club3 heart4 N0 N1
+sendtofree-b club4 N1 N0 N3 N4
+newcolfromfreecell club2 N4 N3 N0 N1
+sendtohome-b club2 club N2 clubA N1 N3 N4
+sendtohome club3 heart4 club N3 club2 N2
+sendtofree-b heart4 N1 N0 N4 N5
+homefromfreecell heart4 heart N4 heart3 N3 N0 N1
+homefromfreecell club4 club N4 club3 N3 N1 N2

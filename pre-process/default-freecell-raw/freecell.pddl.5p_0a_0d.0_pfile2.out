@@ -1,0 +1,61 @@
+time	nodes	len	fail pr	eval time	
+2.791	49	16	0.984375	0.011	
+6.815	253	27	0.96875	0.016	
+6.817	256	28	0.9375	0.021	
+6.863	275	27	0.875	0.026	
+7.707	496	37	0.75	0.031	
+8.394	607	35	0.5	0.035	
+10.203	770	46	0	0.036	
+Incomplete Features: 496
+Solution Evaluation Time (s): 0.036
+Model Counting Time (s): 0.001
+Nodes Expanded: 771
+Total Time (s): 10.24
+
+Plan found
+move club2 diamond3 heart3
+sendtohome clubA diamondA club N1 club0 N0
+sendtofree club2 heart3 N2 N1
+move spade2 club3 diamond3
+sendtofree spade3 heart2 N1 N0
+move-b diamondA spade2 N0 N1
+sendtonewcol heart2 heartA N1 N0
+move-b heart2 club3 N0 N1
+colfromfreecell club2 heart3 N0 N1
+sendtofree diamondA spade2 N1 N0
+sendtonewcol club2 heart3 N1 N0
+colfromfreecell diamondA spade2 N0 N1
+move-b heartA club2 N0 N1
+sendtohome heartA club2 heart N1 heart0 N0
+sendtonewcol diamondA spade2 N1 N0
+sendtofree heart2 club3 N1 N0
+move spade2 diamond3 heart3
+move-b club2 diamond3 N0 N1
+sendtohome club2 diamond3 club N2 clubA N1
+colfromfreecell heart2 club3 N0 N1
+sendtofree spade2 heart3 N1 N0
+sendtonewcol heart3 diamond2 N1 N0
+colfromfreecell spade2 heart3 N0 N1
+move spade2 heart3 diamond3
+sendtofree heart2 club3 N1 N0
+sendtohome-b club3 club N3 club2 N2 N0 N1
+move spade2 diamond3 heart3
+sendtonewcol spade2 heart3 N1 N0
+move-b diamondA spade2 N0 N1
+sendtonewcol diamond3 spadeA N1 N0
+move-b spadeA diamond2 N0 N1
+sendtonewcol diamondA spade2 N1 N0
+move-b spade2 diamond3 N0 N1
+move-b diamondA spade2 N1 N2
+sendtohome diamondA spade2 diamond N1 diamond0 N0
+sendtohome spadeA diamond2 spade N1 spade0 N0
+move spade2 diamond3 heart3
+sendtohome spade2 heart3 spade N2 spadeA N1
+homefromfreecell spade3 spade N3 spade2 N2 N0 N1
+sendtofree-b heart3 N1 N0 N2 N3
+sendtohome-b diamond2 diamond N2 diamondA N1 N3 N4
+sendtohome-b diamond3 diamond N3 diamond2 N2 N4 N5
+newcolfromfreecell heart3 N5 N4 N0 N1
+newcolfromfreecell heart2 N4 N3 N1 N2
+sendtohome-b heart2 heart N2 heartA N1 N3 N4
+sendtohome-b heart3 heart N3 heart2 N2 N4 N5

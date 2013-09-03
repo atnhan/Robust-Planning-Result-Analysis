@@ -1,0 +1,56 @@
+time	nodes	len	fail pr	eval time	
+5.343	361	47	0	0.004	
+Incomplete Features: 391
+Solution Evaluation Time (s): 0.004
+Model Counting Time (s): 0.0
+Nodes Expanded: 361
+Total Time (s): 5.472
+
+Plan found
+turn_to satellite4 Star16 Planet10
+turn_to satellite0 GroundStation3 Star0
+switch_on instrument10 satellite4
+switch_on instrument3 satellite1
+turn_to satellite4 Star7 Star16
+switch_on instrument1 satellite0
+turn_to satellite1 Star6 Star4
+turn_to satellite0 Planet9 GroundStation3
+turn_to satellite1 Planet10 Star6
+turn_to satellite4 Planet9 Star7
+turn_to satellite0 Phenomenon14 Planet9
+turn_to satellite4 Star0 Planet9
+turn_to satellite0 GroundStation3 Phenomenon14
+calibrate satellite0 instrument1 GroundStation3
+turn_to satellite0 Phenomenon14 GroundStation3
+turn_to satellite4 Planet5 Star0
+take_image satellite0 Phenomenon14 instrument1 spectrograph1
+turn_to satellite4 Phenomenon13 Planet5
+turn_to satellite0 Star15 Phenomenon14
+take_image satellite0 Star15 instrument1 spectrograph1
+turn_to satellite0 Planet9 Star15
+turn_to satellite4 Phenomenon8 Phenomenon13
+take_image satellite0 Planet9 instrument1 infrared0
+turn_to satellite4 Star0 Phenomenon8
+calibrate satellite4 instrument10 Star0
+turn_to satellite4 Planet9 Star0
+turn_to satellite4 Phenomenon8 Planet9
+take_image satellite4 Phenomenon8 instrument10 image4
+turn_to satellite4 Planet5 Phenomenon8
+take_image satellite4 Planet5 instrument10 image4
+turn_to satellite4 Star16 Planet5
+take_image satellite4 Star16 instrument10 image2
+turn_to satellite4 Planet9 Star16
+turn_to satellite1 Star4 Planet10
+calibrate satellite1 instrument3 Star4
+turn_to satellite1 Star6 Star4
+take_image satellite1 Star6 instrument3 infrared3
+turn_to satellite1 Planet10 Star6
+take_image satellite1 Planet10 instrument3 infrared3
+turn_to satellite4 Star7 Planet9
+take_image satellite4 Star7 instrument10 image4
+turn_to satellite4 Star12 Star7
+take_image satellite4 Star12 instrument10 image4
+turn_to satellite4 Planet9 Star12
+turn_to satellite4 Phenomenon13 Planet9
+take_image satellite4 Phenomenon13 instrument10 image4
+turn_to satellite4 Planet9 Phenomenon13

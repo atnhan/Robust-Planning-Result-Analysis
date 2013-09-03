@@ -1,0 +1,68 @@
+time	nodes	len	fail pr	eval time	
+0.382	45	12	0.9375	0.012	
+8.837	3807	73	0.875	0.016	
+12.519	6222	172	0.75	0.023	
+25.376	14595	92	0.5	0.026	
+31.477	18278	55	0	0.027	
+Incomplete Features: 68
+Solution Evaluation Time (s): 0.027
+Model Counting Time (s): 0.0
+Nodes Expanded: 18279
+Total Time (s): 31.507
+
+Plan found
+turn_to satellite1 Star2 Star0
+switch_on instrument0 satellite0
+turn_to satellite0 Phenomenon7 Star4
+turn_to satellite1 Star1 Star2
+turn_to satellite0 Star4 Phenomenon7
+turn_to satellite1 Phenomenon7 Star1
+turn_to satellite0 Phenomenon7 Star4
+turn_to satellite1 Star3 Phenomenon7
+turn_to satellite0 Star3 Phenomenon7
+turn_to satellite0 Star0 Star3
+turn_to satellite1 Star1 Star3
+turn_to satellite1 Phenomenon7 Star1
+turn_to satellite0 Star3 Star0
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite0 Phenomenon7 Star3
+turn_to satellite0 Star2 Phenomenon7
+turn_to satellite1 Star4 Phenomenon6
+turn_to satellite1 Phenomenon5 Star4
+turn_to satellite0 Phenomenon7 Star2
+turn_to satellite0 Star3 Phenomenon7
+turn_to satellite0 Star0 Star3
+turn_to satellite1 Star2 Phenomenon5
+switch_on instrument3 satellite1
+turn_to satellite0 Phenomenon7 Star0
+turn_to satellite0 Star4 Phenomenon7
+turn_to satellite0 Star2 Star4
+turn_to satellite1 Phenomenon5 Star2
+turn_to satellite1 Star0 Phenomenon5
+turn_to satellite0 Star4 Star2
+turn_to satellite0 Star3 Star4
+turn_to satellite0 Star0 Star3
+calibrate satellite1 instrument3 Star0
+turn_to satellite1 Phenomenon7 Star0
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite0 Phenomenon7 Star0
+turn_to satellite1 Phenomenon5 Phenomenon6
+turn_to satellite1 Phenomenon7 Phenomenon5
+take_image satellite1 Phenomenon7 instrument3 spectrograph2
+turn_to satellite1 Phenomenon6 Phenomenon7
+turn_to satellite1 Phenomenon5 Phenomenon6
+turn_to satellite1 Star3 Phenomenon5
+turn_to satellite0 Phenomenon5 Phenomenon7
+turn_to satellite1 Star4 Star3
+take_image satellite1 Star4 instrument3 spectrograph2
+turn_to satellite0 Phenomenon7 Phenomenon5
+turn_to satellite1 Phenomenon5 Star4
+turn_to satellite1 Phenomenon7 Phenomenon5
+turn_to satellite1 Star3 Phenomenon7
+take_image satellite1 Star3 instrument3 infrared0
+turn_to satellite1 Phenomenon5 Star3
+take_image satellite1 Phenomenon5 instrument3 spectrograph2
+switch_off instrument3 satellite1
+turn_to satellite1 Phenomenon7 Phenomenon5
+turn_to satellite1 Star3 Phenomenon7
+turn_to satellite0 Phenomenon5 Phenomenon7

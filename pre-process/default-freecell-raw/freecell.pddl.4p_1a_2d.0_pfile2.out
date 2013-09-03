@@ -1,0 +1,62 @@
+time	nodes	len	fail pr	eval time	
+3.185	111	24	0.96875	0.035	
+46.84	8474	90	0.9375	0.046	
+65.532	12414	89	0.875	0.054	
+261.459	48044	44	0.75	0.058	
+402.721	73501	37	0.5	0.063	
+411.223	74872	48	0	0.066	
+Incomplete Features: 552
+Solution Evaluation Time (s): 0.066
+Model Counting Time (s): 0.001
+Nodes Expanded: 74873
+Total Time (s): 411.29
+
+Plan found
+move club2 diamond3 heart3
+sendtofree spade3 heart2 N2 N1
+move spade2 club3 diamond3
+sendtofree clubA diamondA N1 N0
+colfromfreecell clubA heart2 N0 N1
+move-b diamondA spade2 N0 N1
+move diamondA spade2 club2
+sendtohome diamondA club2 diamond N1 diamond0 N0
+sendtofree clubA heart2 N1 N0
+sendtonewcol heart2 heartA N1 N0
+move-b heartA club2 N0 N1
+sendtohome heartA club2 heart N1 heart0 N0
+colfromfreecell clubA heart2 N0 N1
+sendtonewcol club2 heart3 N1 N0
+move-b club2 heart3 N0 N1
+sendtofree club2 heart3 N1 N0
+sendtonewcol heart3 diamond2 N1 N0
+move spade2 diamond3 heart3
+move clubA heart2 diamond2
+sendtohome clubA diamond2 club N1 club0 N0
+move-b diamond2 club3 N0 N1
+sendtonewcol spade2 heart3 N1 N0
+sendtohome diamond2 club3 diamond N2 diamondA N1
+move-b spade2 diamond3 N0 N1
+move-b heart2 club3 N1 N2
+sendtonewcol spade2 diamond3 N2 N1
+colfromfreecell club2 heart3 N0 N1
+sendtonewcol club2 heart3 N1 N0
+move-b club2 diamond3 N0 N1
+move-b spade2 heart3 N1 N2
+sendtohome club2 diamond3 club N2 clubA N1
+sendtofree diamond3 spadeA N1 N0
+sendtonewcol heart2 club3 N2 N1
+homefromfreecell diamond3 diamond N3 diamond2 N2 N0 N1
+sendtonewcol spade2 heart3 N1 N0
+sendtohome-b club3 club N3 club2 N2 N0 N1
+move-b spade2 heart3 N1 N2
+sendtohome-b spadeA spade N1 spade0 N0 N2 N3
+sendtofree spade2 heart3 N1 N0
+newcolfromfreecell spade2 N3 N2 N0 N1
+move-b spade2 heart3 N2 N3
+sendtofree spade2 heart3 N1 N0
+sendtohome-b heart2 heart N2 heartA N1 N3 N4
+newcolfromfreecell spade2 N4 N3 N0 N1
+sendtohome-b spade2 spade N2 spadeA N1 N3 N4
+sendtohome-b heart3 heart N3 heart2 N2 N4 N5
+newcolfromfreecell spade3 N5 N4 N1 N2
+sendtohome-b spade3 spade N3 spade2 N2 N4 N5

@@ -1,0 +1,161 @@
+time	nodes	len	fail pr	eval time	
+6.356	199	36	0.5	0.015	
+60.444	1352	151	0	0.027	
+Incomplete Features: 584
+Solution Evaluation Time (s): 0.027
+Model Counting Time (s): 0.0
+Nodes Expanded: 1353
+Total Time (s): 60.482
+
+Plan found
+sendtofree club3 club4 N2 N1
+sendtofree club2 diamond3 N1 N0
+move diamond3 heartA club4
+colfromfreecell club2 diamond3 N0 N1
+sendtofree heartA spadeA N1 N0
+move heart4 spade5 club5
+colfromfreecell heartA club2 N0 N1
+sendtohome heartA club2 heart N1 heart0 N0
+sendtofree club2 diamond3 N1 N0
+move heart4 club5 spade5
+colfromfreecell club2 diamond3 N0 N1
+colfromfreecell club3 heart4 N1 N2
+sendtofree spade4 diamond2 N2 N1
+move-b spadeA diamond2 N0 N1
+sendtofree club5 heart3 N1 N0
+sendtonewcol club2 diamond3 N1 N0
+move-b club2 heart3 N0 N1
+sendtonewcol spadeA diamond2 N1 N0
+move diamond2 diamond5 club3
+colfromfreecell spade4 diamond5 N0 N1
+sendtofree diamond3 club4 N1 N0
+colfromfreecell diamond3 spade4 N0 N1
+move club2 heart3 diamond3
+sendtofree club2 diamond3 N1 N0
+move diamond3 spade4 club4
+colfromfreecell club2 diamond3 N0 N1
+sendtofree spade4 diamond5 N1 N0
+move-b spadeA diamond2 N0 N1
+move club2 diamond3 heart3
+colfromfreecell spade4 diamond5 N0 N1
+sendtonewcol diamond3 club4 N1 N0
+sendtofree spadeA diamond2 N1 N0
+move-b diamond3 club4 N0 N1
+move club2 heart3 diamond3
+sendtonewcol heart3 diamond4 N1 N0
+colfromfreecell spadeA diamond2 N0 N1
+sendtofree club2 diamond3 N1 N0
+colfromfreecell club2 heart3 N0 N1
+sendtofree diamond4 heart5 N1 N0
+move spade4 diamond5 heart5
+move diamond3 club4 spade4
+move club4 heart2 diamond5
+sendtohome spadeA diamond2 spade N1 spade0 N0
+move diamond3 spade4 club4
+sendtohome heart2 clubA heart N2 heartA N1
+move club2 heart3 diamond3
+move-b clubA diamond2 N0 N1
+sendtonewcol spade4 heart5 N1 N0
+move-b heart3 spade4 N0 N1
+sendtonewcol club2 diamond3 N1 N0
+sendtohome clubA diamond2 club N1 club0 N0
+move-b club2 diamond3 N0 N1
+sendtohome club2 diamond3 club N2 clubA N1
+sendtonewcol diamond3 club4 N1 N0
+move heart3 spade4 club4
+sendtohome heart3 club4 heart N3 heart2 N2
+move-b spade4 heart5 N0 N1
+sendtonewcol club4 diamond5 N1 N0
+move spade4 heart5 diamond5
+move-b diamond3 club4 N0 N1
+sendtonewcol diamond2 club3 N1 N0
+move diamond3 club4 spade4
+move-b club4 heart5 N0 N1
+sendtonewcol club3 heart4 N1 N0
+move diamond3 spade4 club4
+move-b diamond2 club3 N0 N1
+sendtohome heart4 spade5 heart N4 heart3 N3
+colfromfreecell diamond4 spade5 N0 N1
+sendtonewcol diamond3 club4 N1 N0
+sendtofree spade4 diamond5 N1 N0
+move club4 heart5 diamond5
+colfromfreecell spade4 heart5 N0 N1
+move-b diamond3 club4 N0 N1
+sendtofree diamond3 club4 N1 N0
+sendtonewcol diamond2 club3 N1 N0
+colfromfreecell diamond3 spade4 N0 N1
+move-b club3 diamond4 N0 N1
+sendtofree club4 diamond5 N1 N0
+sendtonewcol diamond3 spade4 N1 N0
+move-b diamond2 club3 N0 N1
+sendtonewcol diamond5 spade3 N1 N0
+move diamond2 club3 spade3
+colfromfreecell club4 diamond5 N0 N1
+move-b diamond3 club4 N0 N1
+sendtofree diamond3 club4 N1 N0
+sendtonewcol diamond2 spade3 N1 N0
+colfromfreecell diamond3 spade4 N0 N1
+move-b diamond2 spade3 N0 N1
+sendtofree club4 diamond5 N1 N0
+sendtonewcol club3 diamond4 N1 N0
+move diamond2 spade3 club3
+colfromfreecell club4 diamond5 N0 N1
+move diamond3 spade4 club4
+sendtofree diamond3 club4 N1 N0
+move-b spade3 diamond4 N0 N1
+sendtonewcol spade4 heart5 N1 N0
+colfromfreecell diamond3 spade4 N0 N1
+sendtofree club4 diamond5 N1 N0
+colfromfreecell club4 heart5 N0 N1
+move diamond3 spade4 club4
+sendtofree diamond3 club4 N1 N0
+move-b spade4 diamond5 N0 N1
+sendtonewcol club4 heart5 N1 N0
+colfromfreecell diamond3 spade4 N0 N1
+sendtohome-b heart5 heart N5 heart4 N4 N0 N1
+move diamond3 spade4 club4
+sendtofree diamond3 club4 N1 N0
+sendtonewcol spade3 diamond4 N1 N0
+move diamond2 club3 spade3
+colfromfreecell diamond3 spade4 N0 N1
+move-b club3 diamond4 N0 N1
+sendtofree diamond3 spade4 N1 N0
+sendtonewcol diamond2 spade3 N1 N0
+sendtohome club3 diamond4 club N3 club2 N2
+colfromfreecell diamond3 spade4 N0 N1
+move-b spade3 diamond4 N0 N1
+move diamond3 spade4 club4
+sendtonewcol diamond3 club4 N1 N0
+sendtofree spade3 diamond4 N1 N0
+move-b diamond3 club4 N0 N1
+move diamond3 club4 spade4
+sendtonewcol diamond4 spade5 N1 N0
+sendtohome-b club4 club N4 club3 N3 N0 N1
+sendtonewcol diamond3 spade4 N1 N0
+colfromfreecell spade3 diamond4 N0 N1
+sendtofree spade4 diamond5 N1 N0
+homefromfreecell club5 club N5 club4 N4 N0 N1
+sendtofree spade5 diamondA N1 N0
+colfromfreecell spade4 diamond5 N0 N1
+sendtohome diamondA spade2 diamond N1 diamond0 N0
+move-b diamond3 spade4 N0 N1
+move-b spade2 diamond3 N1 N2
+sendtonewcol spade3 diamond4 N2 N1
+sendtohome spade2 diamond3 spade N2 spadeA N1
+sendtonewcol diamond3 spade4 N1 N0
+move-b diamond2 spade3 N0 N1
+move-b diamond3 spade4 N1 N2
+sendtohome diamond2 spade3 diamond N2 diamondA N1
+sendtofree-b spade3 N1 N0 N2 N3
+sendtohome diamond3 spade4 diamond N3 diamond2 N2
+newcolfromfreecell spade3 N3 N2 N0 N1
+move-b spade3 diamond4 N2 N3
+sendtofree spade4 diamond5 N1 N0
+sendtohome spade3 diamond4 spade N3 spade2 N2
+colfromfreecell spade4 diamond5 N0 N1
+sendtohome spade4 diamond5 spade N4 spade3 N3
+sendtofree-b diamond4 N1 N0 N3 N4
+homefromfreecell spade5 spade N5 spade4 N4 N0 N1
+sendtofree-b diamond5 N1 N0 N4 N5
+homefromfreecell diamond4 diamond N4 diamond3 N3 N0 N1
+homefromfreecell diamond5 diamond N5 diamond4 N4 N1 N2

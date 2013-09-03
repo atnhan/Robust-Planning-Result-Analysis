@@ -1,0 +1,84 @@
+time	nodes	len	fail pr	eval time	
+62.606	322	75	0	0.008	
+Incomplete Features: 2816
+Solution Evaluation Time (s): 0.008
+Model Counting Time (s): 0.0
+Nodes Expanded: 322
+Total Time (s): 71.648
+
+Plan found
+sendtofree spade9 heart7 N4 N3
+sendtofree club5 diamond8 N3 N2
+sendtofree diamond8 diamond5 N2 N1
+sendtofree spade8 heart3 N1 N0
+move heart7 diamondA club8
+sendtohome diamondA spade3 diamond N1 diamond0 N0
+move spade2 spade4 heart3
+move spade4 diamond3 diamond5
+move spade2 heart3 diamond3
+move heart3 heartA spade4
+sendtohome heartA spadeA heart N1 heart0 N0
+sendtohome spadeA club7 spade N1 spade0 N0
+colfromfreecell club5 heart6 N0 N1
+sendtohome spade2 diamond3 spade N2 spadeA N1
+sendtofree club5 heart6 N1 N0
+sendtohome spade3 heart5 spade N3 spade2 N2
+move heart6 clubA club7
+sendtohome clubA club2 club N1 club0 N0
+sendtohome club2 club9 club N2 clubA N1
+colfromfreecell club5 heart6 N0 N1
+sendtofree diamond3 club4 N1 N0
+move heart3 spade4 club4
+sendtohome spade4 diamond5 spade N4 spade3 N3
+colfromfreecell diamond8 club9 N0 N1
+sendtofree diamond5 diamond2 N1 N0
+sendtohome diamond2 diamond6 diamond N2 diamondA N1
+homefromfreecell diamond3 diamond N3 diamond2 N2 N0 N1
+sendtofree heart3 club4 N1 N0
+move club5 heart6 diamond6
+move club4 club6 heart5
+colfromfreecell heart3 club4 N0 N1
+sendtofree diamond8 club9 N1 N0
+move club5 diamond6 heart6
+move club6 club3 heart7
+sendtohome-b club3 club N3 club2 N2 N0 N1
+sendtonewcol club9 spade5 N1 N0
+sendtohome-b spade5 spade N5 spade4 N4 N0 N1
+sendtonewcol heart3 club4 N1 N0
+sendtohome club4 heart5 club N4 club3 N3
+sendtohome club5 heart6 club N5 club4 N4
+move-b heart5 club6 N0 N1
+move heart8 diamond7 club9
+sendtonewcol heart6 club7 N1 N0
+move-b club7 heart8 N0 N1
+sendtonewcol diamond7 heart4 N1 N0
+move-b heart6 club7 N0 N1
+sendtonewcol heart4 heart2 N1 N0
+sendtohome heart2 spade6 heart N2 heartA N1
+sendtohome-b spade6 spade N6 spade5 N5 N0 N1
+sendtonewcol heart6 club7 N1 N0
+sendtohome-b heart3 heart N3 heart2 N2 N0 N1
+sendtohome-b heart4 heart N4 heart3 N3 N1 N2
+sendtonewcol club7 heart8 N2 N1
+sendtohome heart5 club6 heart N5 heart4 N4
+sendtohome club6 heart7 club N6 club5 N5
+sendtonewcol heart7 club8 N1 N0
+sendtohome-b heart6 heart N6 heart5 N5 N0 N1
+sendtonewcol club8 diamond4 N1 N0
+sendtohome-b club7 club N7 club6 N6 N0 N1
+sendtohome diamond4 diamond9 diamond N4 diamond3 N3
+sendtohome-b heart7 heart N7 heart6 N6 N1 N2
+sendtonewcol heart8 club9 N2 N1
+sendtohome-b heart8 heart N8 heart7 N7 N1 N2
+sendtohome-b club8 club N8 club7 N7 N2 N3
+homefromfreecell diamond5 diamond N5 diamond4 N4 N0 N1
+sendtohome-b diamond6 diamond N6 diamond5 N5 N3 N4
+sendtonewcol diamond9 spade7 N4 N3
+sendtohome-b club9 club N9 club8 N8 N3 N4
+sendtohome spade7 heart9 spade N7 spade6 N6
+homefromfreecell spade8 spade N8 spade7 N7 N1 N2
+homefromfreecell spade9 spade N9 spade8 N8 N2 N3
+sendtohome-b diamond7 diamond N7 diamond6 N6 N4 N5
+homefromfreecell diamond8 diamond N8 diamond7 N7 N3 N4
+sendtohome-b diamond9 diamond N9 diamond8 N8 N5 N6
+sendtohome-b heart9 heart N9 heart8 N8 N6 N7

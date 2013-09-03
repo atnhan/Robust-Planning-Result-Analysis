@@ -1,0 +1,57 @@
+time	nodes	len	fail pr	eval time	
+12.138	434	48	0	0.005	
+Incomplete Features: 768
+Solution Evaluation Time (s): 0.005
+Model Counting Time (s): 0.0
+Nodes Expanded: 434
+Total Time (s): 13.139
+
+Plan found
+sendtofree club5 heart3 N2 N1
+sendtofree spade4 diamond2 N1 N0
+move club3 club4 heart4
+move heart3 diamond4 club4
+move diamond2 diamond5 club3
+colfromfreecell spade4 diamond5 N0 N1
+move heart3 club4 spade4
+sendtofree diamond4 heart5 N1 N0
+move club2 diamond3 heart3
+move club4 heart2 heart5
+move diamond3 heartA club4
+sendtohome heartA spadeA heart N1 heart0 N0
+move club2 heart3 diamond3
+sendtohome heart2 clubA heart N2 heartA N1
+sendtohome heart3 spade4 heart N3 heart2 N2
+move-b spadeA diamond2 N0 N1
+sendtohome spadeA diamond2 spade N1 spade0 N0
+sendtonewcol diamond2 club3 N1 N0
+move-b clubA diamond2 N0 N1
+sendtonewcol club3 heart4 N1 N0
+sendtohome clubA diamond2 club N1 club0 N0
+sendtohome club2 diamond3 club N2 clubA N1
+move-b diamond2 club3 N0 N1
+sendtonewcol spade4 diamond5 N1 N0
+move diamond3 club4 spade4
+sendtohome heart4 spade5 heart N4 heart3 N3
+colfromfreecell diamond4 spade5 N0 N1
+sendtofree diamond2 club3 N1 N0
+sendtohome-b club3 club N3 club2 N2 N0 N1
+sendtonewcol diamond4 spade5 N1 N0
+move club4 heart5 diamond5
+sendtohome-b heart5 heart N5 heart4 N4 N0 N1
+sendtonewcol club4 diamond5 N1 N0
+sendtohome-b club4 club N4 club3 N3 N0 N1
+sendtonewcol diamond5 spade3 N1 N0
+colfromfreecell diamond2 spade3 N0 N1
+sendtofree spade5 diamondA N1 N0
+homefromfreecell spade5 spade N5 club4 N4 N0 N1
+sendtohome diamondA spade2 diamond N1 diamond0 N0
+sendtohome diamond2 spade3 diamond N2 diamondA N1
+sendtohome diamond3 spade4 diamond N3 diamond2 N2
+sendtohome-b diamond4 diamond N4 diamond3 N3 N0 N1
+sendtohome-b diamond5 diamond N5 diamond4 N4 N1 N2
+sendtofree-b spade4 N1 N0 N2 N3
+sendtohome-b spade2 spade N2 spadeA N1 N3 N4
+sendtohome-b spade3 spade N3 spade2 N2 N4 N5
+homefromfreecell spade4 spade N4 spade3 N3 N0 N1
+homefromfreecell club5 club N5 spade4 N4 N1 N2
